@@ -3,32 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cricket height</title>
+    <title>Cricket Practice</title>
     <!-- Style -->
     <style>
       .field {
         border: 1px solid steelblue;
       }
+
       .bat {
         transition: transform 0.1s ease-in;
       }
       .field:hover .bat {
-        transform: rotate(-60deg);
-        /* transform-origin: top-left; */
+        transform: rotate(-65deg);
       }
 
       .field:hover .ball {
         transform: translate(1000px, -500px);
-        transition: transform 1s ease-out 0.1s;
+        transition: transform 1s ease-in-out 0.1s;
       }
 
       .ball {
-        height: 50px;
         width: 50px;
+        height: 50px;
         background-color: red;
         border-radius: 50%;
         position: relative;
-        left: 270px;
+        margin-left: 270px;
       }
     </style>
   </head>
